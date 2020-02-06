@@ -1,0 +1,15 @@
+1. Install Node https://nodejs.org/en/download/
+2. Install NPM https://www.npmjs.com/get-npm
+3. Or you can install chocolatey/choco and it will help you fast to install Node and NPM 
+
+4. Unzip vocabulary-app.zip
+5. Open a shell and navigate to the folder /vocabulary-app
+6. Run npm i (It will create the needed libs and packages)
+7. Run npm start
+
+8. Additionally i created data.json only for quick start purposes. If you copy manually the content of the json file and add it to localStorage with "vocabularyList"
+the app will automatically load the list and display it at the beginning. You add new words and you will find also a save button that will persistent your adds into the localStorage directly
+It acts like a small database that you can extend anytime
+
+Info:
+The app is implemented in React 16.9 and for UI material-ui (https://material-ui.com/) is used.
